@@ -1,5 +1,5 @@
 package ENTITY;
-
+//m
 import jakarta.persistence.*;
 
 @Entity
