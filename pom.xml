@@ -52,7 +52,12 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
 	</dependencies>
+
+	<property name="hibernate.dialect">
+		org.hibernate.dialect.PostgreSQLDialect
+	</property>
 
 	<build>
 		<plugins>

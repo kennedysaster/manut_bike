@@ -7,9 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BikeApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(BikeApplication.class, args);
-		System.out.println("TESTE SUBIR SPRING");
+		System.out.println("TESTE CRIAR TABELA COM HIBERNATE");
 	}
 
 }
